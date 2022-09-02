@@ -7,7 +7,7 @@ function Header() {
     <>
       <div className="header" id="header">
         <div className="container">
-          <a href="#">
+          <a href="#nav">
             <img className="header__logo" src={LOGO} alt="header__logo" />
           </a>
           <h1>PARTNER WITH KONSTRUCT </h1>

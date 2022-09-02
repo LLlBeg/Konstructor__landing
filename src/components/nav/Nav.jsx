@@ -11,27 +11,27 @@ function Nav() {
           <nav className="nav__item__list">
             <ul className="nav__list">
               <li className="nav__list__items">
-                <a className="nav__list__link" href="">
+                <a className="nav__list__link" href="#nav">
                   HOME
                 </a>
               </li>
               <li className="nav__list__items">
-                <a className="nav__list__link" href="">
+                <a className="nav__list__link" href="#nav">
                   ABOUT
                 </a>
               </li>
               <li className="nav__list__items">
-                <a className="nav__list__link" href="">
+                <a className="nav__list__link" href="#nav">
                   SERVICES
                 </a>
               </li>
               <li className="nav__list__items">
-                <a className="nav__list__link" href="">
+                <a className="nav__list__link" href="#nav">
                   WORK
                 </a>
               </li>
               <li className="nav__list__items">
-                <a className="nav__list__link" href="">
+                <a className="nav__list__link" href="#nav">
                   CONTACT
                 </a>
               </li>
