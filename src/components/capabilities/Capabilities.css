@@ -1,0 +1,87 @@
+.capabilities {
+  padding: 0 0 116px 0;
+}
+
+.capabilities__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.capabilities__item__title__text {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 2.30625px;
+  color: #48555b;
+  padding-bottom: 10px;
+}
+
+.capabilities__item__line {
+  display: block;
+  margin-left: 0;
+  width: 50px;
+  height: 2px;
+  border: 2px solid #00a4e5;
+}
+
+.capabilities__item__subtitle {
+  display: flex;
+}
+
+.capabilities__item__subtitle__text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #48555b;
+  padding-right: 31px;
+}
+
+.capabilities__item__subtitle__btn {
+  width: 150px;
+  height: 40px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  background: #00a4e5;
+  cursor: pointer;
+}
+
+.capabilities__box {
+  padding-top: 76px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.capabilities__box__card {
+  width: 295px;
+  height: 330px;
+  padding: 38px 22px;
+  border: 1px solid #e6e6e6;
+}
+
+.capabilities__box__card_title {
+  padding-top: 25px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.426667px;
+  color: #48555b;
+}
+
+.capabilities__box__card_subtitle {
+  padding-top: 13px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.1875px;
+  color: #48555b;
+}

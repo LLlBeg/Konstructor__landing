@@ -1,0 +1,49 @@
+.header {
+  background-image: url("../../assets/image/bg.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  -o-background-size: 100% 100%, auto;
+  -moz-background-size: 100% 100%, auto;
+  -webkit-background-size: 100% 100%, auto;
+  background-size: 100% 100%, auto;
+  min-height: 800px;
+}
+
+.header__logo {
+  display: flex;
+  padding-top: 41.6px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 306px;
+}
+
+.header__text {
+  padding-top: 21px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header__text_down {
+  padding-top: 221px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
