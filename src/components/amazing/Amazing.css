@@ -37,4 +37,9 @@
   letter-spacing: 0.5px;
   color: #ffffff;
   cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.amazing__button:hover {
+  background: #00e5e5bb;
 }

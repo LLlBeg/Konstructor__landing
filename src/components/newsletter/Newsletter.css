@@ -1,0 +1,46 @@
+.newsletter {
+  padding: 30px 0;
+  background: #171819;
+  min-height: 100px;
+}
+
+.newsletter__item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.newsletter__title {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+  margin-right: 100px;
+}
+
+.newsletter__input {
+  padding: 20px;
+  width: 250px;
+  height: 40px;
+  background: #ffffff;
+}
+
+.newsletter__btn {
+  width: 150px;
+  height: 40px;
+  background: #00a4e5;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.newsletter__btn:hover {
+  background: #00e5e5bb;
+}

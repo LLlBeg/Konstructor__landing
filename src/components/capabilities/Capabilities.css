@@ -51,6 +51,11 @@
   color: #ffffff;
   background: #00a4e5;
   cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.capabilities__item__subtitle__btn:hover {
+  background: #00e5e5bb;
 }
 
 .capabilities__box {

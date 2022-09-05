@@ -1,0 +1,126 @@
+.footer {
+  padding: 42px 0;
+  min-height: 240px;
+  background: #141a20;
+}
+
+.footer__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__item__title {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.footer__item__text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.85px;
+  color: #ffffff;
+  padding-top: 16px;
+}
+
+.footer__item__subtext {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+}
+
+.footer__item__list {
+  padding-top: 15px;
+}
+
+.footer__item__list:first-child {
+  padding-top: 30px;
+}
+
+.footer__item__link a {
+  display: block;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 25px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+}
+
+.footer__item__link a:hover {
+  color: #00a4e5;
+}
+
+.footer__item__contact {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+}
+
+.footer__item__contact__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+  padding-top: 18px;
+}
+
+.footer__item__contact__phone {
+  display: block;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+  padding-top: 15px;
+}
+
+.footer__item__contact__mail {
+  display: block;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+  padding-top: 15px;
+}
+
+.footer__item__social {
+  padding-top: 30px;
+}
+
+.footer__item__social__logo {
+  padding-right: 25px;
+}
+
+.construct {
+  padding: 22px 0;
+  background: #171819;
+}
+
+.construct__title {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+  text-align: center;
+}
