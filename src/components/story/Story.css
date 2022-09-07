@@ -4,7 +4,6 @@
 
 .story_title {
   font-family: "Open Sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
@@ -34,7 +33,6 @@ hr {
 
 .story__item__title__text {
   font-family: "Open Sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
@@ -45,7 +43,6 @@ hr {
 .story__item__title__text a {
   display: inline;
   font-family: "Open Sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
@@ -55,7 +52,6 @@ hr {
 .story__item__subtitle__text {
   padding-top: 30px;
   font-family: "Open Sans";
-  font-style: normal;
   font-weight: 400;
   font-size: 13px;
   line-height: 23px;
@@ -65,9 +61,49 @@ hr {
 }
 
 .story__item__image img {
-  margin-right: 8px;
+  margin-right: 20px;
 }
 
 .story__item__image img:last-child {
   margin-right: 0px;
+}
+
+/*=======================================  (MEDIUM DEVICES) ==========================*/
+
+@media screen and (max-width: 1024px) {
+  .story {
+    padding: 15px 15px;
+  }
+
+  .story__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+  }
+
+  .story__item__subtitle__text {
+    padding-top: 15px;
+  }
+
+  .story__item__image img {
+    margin-top: 15px;
+  }
+}
+
+/*=======================================  (SMALL DEVICES) ==========================*/
+
+@media screen and (max-width: 600px) {
+  .story__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .srory__item__text {
+    text-align: center;
+  }
+
+  .story__item__image img {
+    display: flex;
+  }
 }

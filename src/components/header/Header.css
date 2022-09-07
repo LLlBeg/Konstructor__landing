@@ -10,14 +10,13 @@
 }
 
 .header__logo {
-  display: flex;
+  display: block;
   padding-top: 41.6px;
   margin: 0 auto;
 }
 
 h1 {
   font-family: "Bebas Neue";
-  font-style: normal;
   font-weight: 400;
   font-size: 60px;
   line-height: 72px;
@@ -29,7 +28,6 @@ h1 {
 .header__text {
   padding-top: 21px;
   font-family: "Open Sans";
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
@@ -40,10 +38,30 @@ h1 {
 .header__text_down {
   padding-top: 221px;
   font-family: "Open Sans";
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
   text-align: center;
   color: #ffffff;
+}
+
+/*=======================================  (MEDIUM DEVICES) ==========================*/
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 15px;
+  }
+
+  h1 {
+    font-family: "Bebas Neue";
+    font-size: 48px;
+  }
+}
+
+/*=======================================  (SMALL DEVICES) ==========================*/
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 15px;
+  }
 }

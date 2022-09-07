@@ -1,5 +1,5 @@
 .nav {
-  height: 65px;
+  min-height: 65px;
   padding: 24px 0;
   background: #ffffff;
   border-bottom: 1px solid #e6e6e6;
@@ -26,12 +26,9 @@
 
 .nav__list__link {
   font-family: "Open Sans";
-  font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
-  display: flex;
-  align-items: flex-end;
   text-align: center;
   color: #48555b;
   transition: all 0.5s ease;
@@ -39,4 +36,39 @@
 
 .nav__list__link:hover {
   color: #00a4e5;
+}
+
+/*=======================================  (MEDIUM DEVICES) ==========================*/
+
+@media screen and (max-width: 1024px) {
+  .nav__item {
+    padding: 0 15px;
+  }
+}
+
+/*=======================================  (SMALL DEVICES) ==========================*/
+
+@media screen and (max-width: 600px) {
+  .nav__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav__item__list {
+    text-align: center;
+  }
+
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .nav__list__items {
+    margin: 0;
+  }
+
+  .nav__list__link {
+    text-align: center;
+  }
 }

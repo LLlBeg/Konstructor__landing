@@ -124,3 +124,32 @@
   color: #ffffff;
   text-align: center;
 }
+
+/*=======================================  (MEDIUM DEVICES) ==========================*/
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 10px;
+  }
+
+  .footer__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+/*=======================================  (SMALL DEVICES) ==========================*/
+
+@media screen and (max-width: 600px) {
+  .footer__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__item {
+    text-align: center;
+    padding-top: 10px;
+  }
+}

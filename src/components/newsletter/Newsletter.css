@@ -44,3 +44,35 @@
 .newsletter__btn:hover {
   background: #00e5e5bb;
 }
+
+/*=======================================  (MEDIUM DEVICES) ==========================*/
+
+@media screen and (max-width: 1024px) {
+  .newsletter__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .newsletter__title {
+    padding-bottom: 15px;
+    padding-left: 100px;
+  }
+}
+
+/*=======================================  (SMALL DEVICES) ==========================*/
+
+@media screen and (max-width: 600px) {
+  .newsletter__title {
+    text-align: center;
+  }
+
+  .newsletter__sign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter__btn {
+    margin-top: 10px;
+  }
+}
